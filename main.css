@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Poppins:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo img {
+  width: 150px;
+}
+
+.servis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+.list a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.box-1 button {
+  background: rgba(245, 138, 7, 0.1);
+  border-radius: 31px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 106.5%;
+  padding: 18px;
+  color: #f58a07;
+  border: 1px;
+}
+
+.d-flex-ota {
+  display: flex;
+  gap: 32px;
+}
+
+.d-flex-bola {
+  width: 50%;
+}
+
+.text-1 {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.03em;
+
+  color: #1d3444;
+}
+.the {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+.yoq {
+  margin-left: 76px;
+}
+.India {
+  /* margin-bottom: 63px; */
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #5b5b5b;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+.dis-flex-bola {
+  margin-top: 142px;
+}
+
+.dis-flex-bola img {
+  margin-top: 119px;
+}
+.d-flex-bola {
+  margin-top: 122px;
+}
+.di-flex-ota {
+  display: flex;
+}
+.box-5 {
+  margin-top: 48px;
+}
+.blis {
+}
+
+.blis input,
+textarea {
+  display: block;
+  border: none;
+  margin-bottom: 20px;
+  padding: 17px 32px;
+  background: rgba(210, 218, 237, 0.17);
+  border-radius: 27px;
+  width: 100%;
+}
+.box-5 button {
+  background: #f58a07;
+  border-radius: 31px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 106.5%;
+  text-transform: capitalize;
+  color: #ffffff;
+  width: 119px;
+  height: 54px;
+  border: none;
+  margin-bottom: 128px;
+}
+.bg-color-blue {
+  background: #063255;
+}
+.next h1 {
+  /* margin-top: 139px; */
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.next img {
+  left: 16.67%;
+  right: 77.08%;
+  top: 73.93%;
+  bottom: 24.23%;
+  color: #ffffff;
+  background: black;
+}
